@@ -1,0 +1,50 @@
+.pros-and-cons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    background: linear-gradient(106.1deg, rgba(255, 242, 240, 0.5) -103.48%, #FFF8EB 104.24%);
+    border-radius: 2rem;
+    width: 20rem;
+    height: 10rem;  
+}
+
+.pros-and-cons__text {
+    font-size: 0.75rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    color: var(--color-secondary);
+}
+
+.pros-and-cons__heading {
+    font-size: 1.05rem;
+    margin: 0.25rem 0 0.5rem 0;
+    line-height: 1.5rem;
+    letter-spacing: 0.24px;
+}
+
+.pros-and-cons__left {
+    margin: 1.6rem 0 2rem 2rem;
+}
+
+.pros-and-cons__right {
+    display: grid;
+    place-items: center;
+    margin-bottom: .5rem;
+    
+}
+
+.pros-and-const__cta {
+    border: none;
+    background-color: var(--color-secondary);
+    height: 2rem;
+    width: 6.5rem;
+    color: var(--color-contrast);
+    border-radius: 0.5rem;
+    font-size: .85rem;
+}
+
+.pros-and-const__cta svg {
+    position: relative;
+    top: -.1em;
+    margin-left: .25em;
+}
