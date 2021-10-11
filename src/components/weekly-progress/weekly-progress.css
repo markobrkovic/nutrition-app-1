@@ -1,19 +1,19 @@
 .weekly-progress {
   display: grid;
   place-items: center;
-  grid-template-columns: 1fr 1fr;
-  background-color: #a3a0ca;
-  height: 6.5rem;
-  width: 20rem;
-  border-radius: 1rem;
+  grid-template-columns: 55% 45%;
+  background-color: var(--color-tertiary);
+  padding: 2rem .5rem;
+  border-radius: 1.5rem;
 }
 
 .weekly-progress__button {
   border: none;
   background-color: var(--color-contrast);
-  color: #a3a0ca;
-  height: 2rem;
-  width: 6rem;
+  color: var(--color-tertiary);
+  width: 80%;
+  max-width: 10rem;
+  padding: .5rem 1rem;
   border-radius: 0.6rem;
   font-size: 0.8rem;
 }
@@ -21,5 +21,5 @@
 .weekly-progress__text {
   color: var(--color-contrast);
   font-size: 1.1rem;
-  margin-left: 2rem;
+  width: 80%;
 }
